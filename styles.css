@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.coinContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.high {
+    background-color: limegreen;
+}
+
+.low {
+    background-color: lightgreen;
+}
+
+.red {
+    background-color: red;
+}
+
+.subidas {
+    font-size: 20px;
+}
+
+.bajadas {
+    font-size: 20px;
+}
+
+.coinInfo {
+    margin-bottom: 5px;
+}
+
+.coinLink {
+    color: white;
+    text-decoration: none;
+}
+
+.coinLink:hover {
+    text-decoration: underline;
+}
